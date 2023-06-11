@@ -1,0 +1,179 @@
+#model5 .member
+{
+    cursor: pointer;
+    transition: all 1s;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    overflow: visible;
+}
+
+#model5 img
+{
+    border-radius: 15px;
+}
+
+#model5 .description
+{
+    width: 400px;
+    height: 425px;
+    background-color: rgb(0, 0, 0);
+    transform: translateY(-100%) rotateY(180deg);
+    border-radius: 15px;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+#model5 .description
+{
+    backface-visibility: hidden !important;
+}
+
+#model5 .member:hover
+{
+    transform :rotateY(180deg);
+}
+
+#model5 .description h1
+{
+    color: #fff;
+}
+
+
+#model5 .description h2
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #F21B3F;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#model5 .description p
+{
+    color: #fff;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+#model5 .description .social-media svg
+{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#model5 .description .social-media svg:hover
+{
+    transform: scale(1.1);
+    color: #F21B3F;
+}
+
+#model5 .members {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#model5 .member-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container img {
+    height: 40px;
+    width: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  .model-title {
+    color: black;
+  }
+  #header {
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    padding: 20px 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+#header .logo-container img {
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+#header .logo-container img:hover {
+    filter: brightness(0.8); /* this will darken the logo on hover instead of changing color */
+}
+
+#header a {
+    color: #fff;
+    transition: color 1s;
+    text-decoration: none;
+}
+
+#header a:hover {
+    color: #F21B3F;
+}
+header {
+    background-color: rgb(3, 3, 3); /* or simply use 'black' */
+    /* add other styling as needed */
+}
+.logo-container {
+    width: 400px;  /* exact size of logo image */
+    height: 213px;  /* exact size of logo image */
+  }
+  
+  .logo-container img {
+    width: 100%;
+    height: auto;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: red;
+  }
+  

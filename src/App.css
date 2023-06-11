@@ -1,0 +1,43 @@
+.model-title
+{
+    text-align: center;
+    margin: 100px auto auto 0;
+    font-size: 50px;
+    color: #272c60;
+}
+
+.divider
+{
+    width: 75px;
+    height: 4px;
+    background-color: #000000;
+    position: relative;
+    margin: 20px auto 60px;
+}
+
+.members
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member
+{
+    margin: 20px 15px;
+    border-radius: 10px;
+    padding: 0;
+    height: 400px;
+    overflow: hidden;
+}
+
+.member:hover
+{
+    transform: scale(1.01);
+}
+
+.member-img {
+    width: 100%; /* this will make the image take full width of the .member div */
+    height: 400px; /* you can adjust this value according to your needs */
+    object-fit: cover; /* this will maintain the aspect ratio of the image */
+  }
